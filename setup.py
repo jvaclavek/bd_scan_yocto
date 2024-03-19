@@ -26,7 +26,7 @@ setuptools.setup(
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.0',
+    python_requires='>=3.9',
     entry_points={
         'console_scripts': ['bd_scan_yocto=bd_scan_yocto.main:main'],
     },
