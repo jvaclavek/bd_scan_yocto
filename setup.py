@@ -19,7 +19,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=['blackduck>=1.0.4',
                       'requests',
-                      'aiohttp'
+                      'aiohttp==3.9.3'
                       ],
     classifiers=[
         "Programming Language :: Python :: 3",

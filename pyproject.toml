@@ -20,7 +20,7 @@ classifiers = [
 dependencies = [
     "blackduck>=1.0.4",
     "requests",
-    "aiohttp>=3.9.3",
+    "aiohttp==3.9.3",
 ]
 
 [tools.setuptools]
