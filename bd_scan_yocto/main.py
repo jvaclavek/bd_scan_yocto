@@ -20,9 +20,6 @@ def main():
 
     logging.debug(global_values)
 
-    if not config.args.cve_check_only and not config.args.nowizard:
-        config.do_wizard()
-
     if global_values.target == "":
         logging.error("Yocto target not specified and not provided by wizard (or wizard skipped) - EXITING")
         sys.exit(2)
